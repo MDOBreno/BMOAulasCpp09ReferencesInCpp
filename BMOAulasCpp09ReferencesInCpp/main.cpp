@@ -39,7 +39,7 @@ int main(int argc, const char * argv[]) {
     
     Log("-------      REFERENCIA    ---------");
     
-    int* ptrA = &a;     //o PONTEIRO 'ptrA' é armazena o ENDEREÇO de 'a'.
+    int* ptrA = &a;     //o PONTEIRO 'ptrA' armazena o ENDEREÇO de 'a'.
     int& refA = a;      //'refA' é a REFERENCIA da VARIAVEL 'a'.
     
     //Por conta do referenciamento 'a'=='refA' sempre, e um pode ser usado no lugar do outro:
